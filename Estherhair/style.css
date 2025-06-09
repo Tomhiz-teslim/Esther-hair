@@ -964,13 +964,14 @@ header .butt a .cta-button3 {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    border: 1px solid ;
+    border: 1px solid #000 ;
     position: absolute;
     right: 5px;
-    top: 600px;
+    top: 400px;
     height: 50px;
     width: 90px;
     background-color: white;
+    padding: 10px;
     
 }
 header .butt a .cta-button3 img{
