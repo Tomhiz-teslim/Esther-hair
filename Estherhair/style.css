@@ -379,6 +379,38 @@ header .butt a .cta-button3 {
   font-size: 0.95rem;
   color: #666;
 }
+.services-grid .button{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-left: 450px;
+}
+
+.services-grid .button a{
+    text-decoration: none;
+}
+.services-grid .button a button{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f9f9f9;
+    width: 100px;
+    border: 2px solid #6e3c19;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.services-grid .button a button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.services-grid .button a button p{
+    font-size: 1.3em;
+    color: #6e3c19;
+    font-weight: 700;
+}
 
 .gallery-section  {
   background-color: transparent;
@@ -1271,6 +1303,38 @@ header .butt a .cta-button2 p{
 .service-box p {
   font-size: 0.7em;
   color: #666;
+}
+.services-grid .button{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.services-grid .button a{
+    text-decoration: none;
+}
+.services-grid .button a button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    width: 100px;
+    border: 1px solid #6e3c19;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.services-grid .button a button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.services-grid .button a button p{
+    font-size: 1.3em;
+    color: #6e3c19;
+    font-weight: 700;
 }
 
 .gallery-section  {
