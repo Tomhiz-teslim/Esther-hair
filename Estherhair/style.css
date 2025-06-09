@@ -964,19 +964,20 @@ header .butt a .cta-button3 {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    border: 1px solid #000 ;
+    border: none;
     position: absolute;
     right: 5px;
-    top: 400px;
+    top: 500px;
     height: 50px;
-    width: 90px;
-    background-color: white;
+    width: 100px;
+    background-color: #6e3c19;
     padding: 10px;
     
 }
-header .butt a .cta-button3 img{
-  width: 100%;
-  height: 40px;
+header .butt a .cta-button3 p{
+ font-size: 1em;
+ font-weight: 600;
+ color: #fff;
 }
 
 header .butt a .cta-button1 p{
@@ -1116,7 +1117,7 @@ header .butt a .cta-button2 p{
   .herotext {
     display: flex;
     flex-direction: column;
-    padding-top: 0px;
+    padding-top: 10px;
     width: 90%;
     padding-left: 10px;
   }
